@@ -1,0 +1,44 @@
+[
+    {
+        "name": "serwersms/serwersms-php-client",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SerwerSMSpl/serwersms-php-api-v2.git",
+            "reference": "39de7b7bebec5a8e09f1a529ccfa361fdaaceeaf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SerwerSMSpl/serwersms-php-api-v2/zipball/39de7b7bebec5a8e09f1a529ccfa361fdaaceeaf",
+            "reference": "39de7b7bebec5a8e09f1a529ccfa361fdaaceeaf",
+            "shasum": ""
+        },
+        "require": {
+            "lib-curl": ">=7.1",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.2.*"
+        },
+        "time": "2015-01-09 13:30:40",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SerwerSMS\\": [
+                    "src/",
+                    "src/SerwerSMS"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "SerwerSMS API PHP",
+        "homepage": "http://github.com/SerwerSMSpl/serwersms-php-api-v2",
+        "keywords": [
+            "api",
+            "php",
+            "serwersms"
+        ]
+    }
+]

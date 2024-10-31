@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SerwerSMS.pl v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-29 16:08+0100\n"
+"PO-Revision-Date: 2015-06-29 16:08+0100\n"
+"Last-Translator: SerwerSMS.pl <biuro@serwersms.pl>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ serwersms
+#: woocommerce-serwersmspl.php:114 includes/class-wc-serwersmspl.php:716
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: woocommerce-serwersmspl.php:115
+msgid "Docs"
+msgstr "Dokumentacja"
+
+#: woocommerce-serwersmspl.php:116
+msgid "Support"
+msgstr "Wsparcie"
+
+#: includes/class-wc-serwersmspl.php:30
+msgid "SerwerSMS.pl"
+msgstr "SerwerSMS.pl"
+
+#: includes/class-wc-serwersmspl.php:31
+#, php-format
+msgid ""
+"WooCommerce integration with SerwerSMS.pl. <a href=\"%s\" target=\"_blank"
+"\">Check out the docs &rarr;</a>"
+msgstr ""
+"Integracja wtyczki SerwerSMS.pl dla WooCommerce. <a href=\"%s\" target="
+"\"_blank\">Sprawdź dokumentację &rarr;</a>"
+
+#: includes/class-wc-serwersmspl.php:257
+msgid "Processing"
+msgstr "W trakcie realizacji"
+
+#: includes/class-wc-serwersmspl.php:262
+msgid "Complete"
+msgstr "Gotowe"
+
+#: includes/class-wc-serwersmspl.php:267
+msgid "Cancled"
+msgstr "Anulowane"
+
+#: includes/class-wc-serwersmspl.php:272
+msgid "Failed"
+msgstr "Błędne"
+
+#: includes/class-wc-serwersmspl.php:277
+msgid "Refunded"
+msgstr "Zwrócone"
+
+#: includes/class-wc-serwersmspl.php:344
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: includes/class-wc-serwersmspl.php:346
+msgid "Enter username"
+msgstr "Podaj nazwę użytkownika"
+
+#: includes/class-wc-serwersmspl.php:351
+msgid "Password"
+msgstr "Hasło"
+
+#: includes/class-wc-serwersmspl.php:353
+msgid "Enter password"
+msgstr "Podaj hasło"
+
+#: includes/class-wc-serwersmspl.php:366
+msgid "Reset plugin"
+msgstr "Resetuj ustawienia"
+
+#: includes/class-wc-serwersmspl.php:368
+msgid "Reset plugin description"
+msgstr ""
+"Opcja powoduje zresetowanie danych autoryzujących oraz ustawień wtyczki"
+
+#: includes/class-wc-serwersmspl.php:376
+msgid "Sender"
+msgstr "Nazwa nadawcy"
+
+#: includes/class-wc-serwersmspl.php:379
+msgid "Sender description"
+msgstr ""
+"Jeśli pole ustawione jest na wartość (Losowy numer), wiadomość zostanie "
+"wysłana jako SMS ECO "
+
+#: includes/class-wc-serwersmspl.php:386
+msgid "Phone"
+msgstr "Numer telefonu administratora"
+
+#: includes/class-wc-serwersmspl.php:388
+msgid "Phone description"
+msgstr ""
+"Numer telefonu administratora do powiadomień SMS. Można podać kilka numerów "
+"oddzielonych przecinkiem \",\". "
+
+#: includes/class-wc-serwersmspl.php:395
+msgid "Unicode"
+msgstr ""
+
+#: includes/class-wc-serwersmspl.php:397
+msgid "Unicode description"
+msgstr ""
+"Opcja powoduje włączenie kodowania UTF-8, które pozwala na wysyłkę "
+"wiadomości ze znakami specjalnymi różnych języków w tym polskich znaków. "
+"Redukuje maksymalną długość wiadomości ze 160 do 70 znaków. Opcja dostępna "
+"tylko dla SMS FULL. "
+
+#: includes/class-wc-serwersmspl.php:404
+msgid "Flash"
+msgstr ""
+
+#: includes/class-wc-serwersmspl.php:406
+msgid "Flash description"
+msgstr ""
+"Wiadomość SMS z rozszerzeniem typu Flash (z ang. Błysk). Jest to rodzaj "
+"wiadomości SMS, która w chwili odebrania automatycznie wyświetla się na "
+"ekranie telefonu. W zależności od opcji telefonu, taką wiadomość można od "
+"razu usunąć (np. naciskając OK) lub zapisać w skrzynce odbiorczej. "
+
+#: includes/class-wc-serwersmspl.php:413
+msgid "Speed"
+msgstr ""
+
+#: includes/class-wc-serwersmspl.php:415
+msgid "Speed description"
+msgstr ""
+"Wiadomość SMS z rozszerzeniem typu Speed traktowane są priorytetowo oraz "
+"wysyłane indywidualnie przez niezależny system. "
+
+#: includes/class-wc-serwersmspl.php:422
+msgid "Test"
+msgstr ""
+
+#: includes/class-wc-serwersmspl.php:424
+msgid "Test description"
+msgstr ""
+"Tryb testowy pozwala na sprawdzenie wprowadzonych ustawień bez wysyłania "
+"wiadomości i naliczenia kosztów. "
+
+#: includes/class-wc-serwersmspl.php:431
+msgid "SMS Flag register"
+msgstr "Powiadomienie administartora o rejestracji nowego użytkownika"
+
+#: includes/class-wc-serwersmspl.php:440
+msgid "SMS Text register"
+msgstr "Treść wiadomości"
+
+#: includes/class-wc-serwersmspl.php:442
+msgid ""
+"Fields personalization:<br/>{customer} - name of user<br/>{email} - email of "
+"user"
+msgstr ""
+"Pola personalizacji:<br/>{customer} - nazwa  użytkownika<br/>{email} - adres "
+"email"
+
+#: includes/class-wc-serwersmspl.php:449
+msgid "SMS Flag order add"
+msgstr "Powiadomienie administartora o nowym zamówieniu"
+
+#: includes/class-wc-serwersmspl.php:458
+msgid "SMS Text order add"
+msgstr "Treść wiadomości"
+
+#: includes/class-wc-serwersmspl.php:460
+msgid ""
+"Fields personalization:<br/>{order_id} - order id<br/>{customer} - firstname "
+"and lastname of user<br/>{email} - email of user<br/>{price} - total price "
+"order"
+msgstr ""
+"Pola personalizacji:<br/>{order_id} - id zamówienia<br/>{customer} - imię i "
+"nazwisko użytkownika<br/>{email} - adres email<br/>{price} - wartość "
+"zamówienia"
+
+#: includes/class-wc-serwersmspl.php:467
+msgid "SMS Flag order processing"
+msgstr ""
+"Powiadomienie klienta w chwili zmiany statusu zamówienia na: W trakcie "
+"przetwarzania"
+
+#: includes/class-wc-serwersmspl.php:476
+msgid "SMS Text order processing"
+msgstr "Treść wiadomości"
+
+#: includes/class-wc-serwersmspl.php:478 includes/class-wc-serwersmspl.php:497
+#: includes/class-wc-serwersmspl.php:515 includes/class-wc-serwersmspl.php:534
+#: includes/class-wc-serwersmspl.php:553
+msgid ""
+"Fields personalization:<br/>{order_id} - order id<br/>{customer} - firstname "
+"and lastname of user<br/>{email} - email of user<br/>{price} - total price "
+"order<br/>{status} - status order"
+msgstr ""
+"Pola personalizacji:<br/>{order_id} - id zamówienia<br/>{customer} - imię i "
+"nazwisko użytkownika<br/>{email} - adres email<br/>{price} - wartość "
+"zamówienia<br/>{status} - status zamówienia"
+
+#: includes/class-wc-serwersmspl.php:486
+msgid "SMS Flag order complete"
+msgstr "Powiadomienie klienta w chwili zmiany statusu zamówienia na: Gotowe"
+
+#: includes/class-wc-serwersmspl.php:495
+msgid "SMS Text order complete"
+msgstr "Treść wiadomości"
+
+#: includes/class-wc-serwersmspl.php:504
+msgid "SMS Flag order cancelled"
+msgstr "Powiadomienie klienta w chwili zmiany statusu zamówienia na: Anulowane"
+
+#: includes/class-wc-serwersmspl.php:513
+msgid "SMS Text order cancelled"
+msgstr "Treść wiadomości"
+
+#: includes/class-wc-serwersmspl.php:523
+msgid "SMS Flag order failed"
+msgstr "Powiadomienie klienta w chwili zmiany statusu zamówienia na: Błędne"
+
+#: includes/class-wc-serwersmspl.php:532
+msgid "SMS Text order failed"
+msgstr "Treść wiadomości"
+
+#: includes/class-wc-serwersmspl.php:542
+msgid "SMS Flag order refunded"
+msgstr "Powiadomienie klienta w chwili zmiany statusu zamówienia na: Zwrócone"
+
+#: includes/class-wc-serwersmspl.php:551
+msgid "SMS Text order refunded"
+msgstr "Treść wiadomości"
+
+#: includes/class-wc-serwersmspl.php:561
+msgid "SMS Flag note"
+msgstr " Powiadomienie użytkownika o nowym wpisie w notatkach zamówienia"
+
+#: includes/class-wc-serwersmspl.php:635 includes/class-wc-serwersmspl.php:655
+#: includes/class-wc-serwersmspl.php:671
+msgid "Field is required"
+msgstr "Pole jest wymagane"
+
+#: includes/class-wc-serwersmspl.php:751
+msgid "Incorect login or password"
+msgstr "Dane autoryzujące do usługi SerwerSMS.pl są nieprawidłowe."
+
+#~ msgid "Report SMS"
+#~ msgstr "Raporty SMS"
+
+#~ msgid "Delivered"
+#~ msgstr "Doręczony"
+
+#~ msgid "Undelivered"
+#~ msgstr "Niedoręczony"
+
+#~ msgid "Send SMS"
+#~ msgstr "Wyślij SMS"
+
+#~ msgid "Edit"
+#~ msgstr "Edytuj"
+
+#~ msgid "Delete"
+#~ msgstr "Usuń"
+
+#~ msgid "Not found data"
+#~ msgstr "Nie znaleziono danych"
+
+#~ msgid "Active plugin"
+#~ msgstr "Aktywność wtyczki"
+
+#, fuzzy
+#~ msgid "Delete note"
+#~ msgstr "Usuń"
+
+#, fuzzy
+#~ msgid "State / County"
+#~ msgstr "Stan konta"
+
+#, fuzzy
+#~ msgctxt "enhanced select"
+#~ msgid "No matches found"
+#~ msgstr "Nie znaleziono danych"
+
+#, fuzzy
+#~ msgid "Edit %s"
+#~ msgstr "Edytuj"
+
+#, fuzzy
+#~ msgctxt "Order status"
+#~ msgid "Pending payment"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgctxt "Order status"
+#~ msgid "Pending Payment"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Update country"
+#~ msgstr "Stan konta"
+
+#, fuzzy
+#~ msgid "Payment Method:"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Sales Reports"
+#~ msgstr "Raporty doręczeń"
+
+#, fuzzy
+#~ msgid "Grouped"
+#~ msgstr "Grupy"
+
+#, fuzzy
+#~ msgid "State/County"
+#~ msgstr "Stan konta"
+
+#, fuzzy
+#~ msgid "Delivery URL"
+#~ msgstr "Raporty doręczeń"
+
+#, fuzzy
+#~ msgid "Payment via %s"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Grouping"
+#~ msgstr "Grupy"
+
+#, fuzzy
+#~ msgid "Delete image"
+#~ msgstr "Usuń"
+
+#, fuzzy
+#~ msgid "Payment Gateway"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Sales amount"
+#~ msgstr "Stan konta"
+
+#, fuzzy
+#~ msgid "Payment Gateways"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Measurements"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Content"
+#~ msgstr "Kontakty"
+
+#, fuzzy
+#~ msgid "Order Deleted"
+#~ msgstr "Usuń"
+
+#, fuzzy
+#~ msgid "Deleted %s"
+#~ msgstr "Usuń"
+
+#, fuzzy
+#~ msgid "New account"
+#~ msgstr "Stan konta"
+
+#, fuzzy
+#~ msgid "Cheque Payment"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Receiver Email"
+#~ msgstr "Wiadomości przychodzące"
+
+#, fuzzy
+#~ msgid "Payment Action"
+#~ msgstr "Płatności"
+
+# @ serwersms
+#, fuzzy
+#~ msgid "Getting started"
+#~ msgstr "Ustawienia"
+
+#, fuzzy
+#~ msgid "Payment Mode"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "Hosted Payments"
+#~ msgstr "Płatności"
+
+#, fuzzy
+#~ msgid "State / county"
+#~ msgstr "Stan konta"
+
+#, fuzzy
+#~ msgid "Create an account?"
+#~ msgstr "Stan konta"
+
+#, fuzzy
+#~ msgid "Payment"
+#~ msgstr "Płatności"
